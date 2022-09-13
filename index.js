@@ -20,6 +20,7 @@ server.get('/:word',
 
         for (let i of arrayJWord) {
             if (arrayWordList.includes(i) == true) {
+                //foundStatus = true; i caught this bug later, so it's not in the video
                 console.log(i);
                 currentWords.push(i);
             }
